@@ -371,7 +371,7 @@ int main(int argc, char* argv[])
     }
     else
     {
-        metricNames.push_back(METRIC_NAME);
+        metricNames.push_back("lts__t_sectors_op_write.sum");
     }
 
     CUcontext cuContext;

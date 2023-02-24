@@ -1,1 +1,1 @@
-sudo LD_LIBRARY_PATH="/usr/local/cuda/extras/CUPTI/lib64":$LD_LIBRARY_PATH ./a.out $1 $2
+sudo LD_LIBRARY_PATH="/usr/local/cuda/extras/CUPTI/lib64":$LD_LIBRARY_PATH ./$1 $2 $3
